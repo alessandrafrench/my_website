@@ -3,20 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Website</title>
+  <title>Alessandra French: Home</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a href = "./index.html">Index</a>
+  <a href = "./aboutme.html">About Me</a>
   <h1>Alessandra French</h1>
   <script src="script.js"></script>
-  <img src = "me.jpg" alt = "A picture of me" width = "100"/>
+  <!--
+  <a href = "./aboutme"><img src = "me.jpg" alt = "A picture of me" width = "100"/></a>
+-->
+  <ul>
+    <li><a href = "#introduction">Introduction</a></li>
+    <li><a href = "#projects">Projects</a></li>
 
-  <p>Hello! I am a currently a final year Master's student in Engineering Science at the University of Oxford</p>
-  <h2>Projects</h2>
-  <h3>Third Year Project: SoleMate</h3>
-  <p>This project was submitted for the B3:Group Design Project for an MEng in Engineering Science at Uni of Oxford.<br>It describes the design of a novel somatosensory feedback replacement device to improve the walking gait of lower limb amputees.</p>
-  <p>You can download it <em>here!</em></p>
-
+  </ul>
+  <div id="introduction">
+    <p>Hello! I am a currently a final year Master's student in Engineering Science at the University of Oxford</p>
+  </div>
+  <div id = "projects"></div>
+    <h2>Projects</h2>
+    <h3>Third Year Project: SoleMate</h3>
+    <p>This project was submitted for the B3:Group Design Project for an MEng in Engineering Science at Uni of Oxford.<br>It describes the design of a novel somatosensory feedback replacement device to improve the walking gait of lower limb amputees.</p>
+    <p>You can download it <em>here!</em></p>
+    <h4>Mathworks Minidrone competition</h4>
+    <a href = "https://eng.ox.ac.uk/news/oxford-engineering-triumph-team-orville-secures-third-place-in-mathworks-minidrone-competition/" target = "_blank">Click here!</a>
+  </div> 
+  <!--
   <h2>Specialist Courses</h2>
   <p>My degree is a general Engineering Science degree, however I have specialised into control and information engineering through various specialist courses. My third year options include:</p>
   <ul>
@@ -25,5 +39,6 @@
     <li>B16: Software Engineering</li>
   </ul>
   <video src="lego_robot.mp4" height = "200" controls>Video not supported</video>
+-->
 </body>
 </html>
